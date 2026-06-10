@@ -193,16 +193,6 @@ ol.biblio li{margin-bottom:18px;padding-left:6px;}
 }
 .mla{font-style:italic;color:#7a6242;}
 
-.portrait {
-  width: 72px;
-  height: 72px;
-  min-width: 72px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center top;
-  border: 0.5px solid var(--color-border-tertiary);
-}
-
 /* ---------- FOOTER ---------- */
 footer{background:var(--ink);color:var(--paper-2);text-align:center;padding:30px 22px;}
 footer .brand-f{font-family:var(--display);color:var(--maize);font-size:18px;letter-spacing:1px;}

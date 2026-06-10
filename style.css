@@ -155,6 +155,17 @@ figcaption{font-family:var(--util);font-size:13px;color:#8a7350;margin-top:8px;t
   border:3px solid var(--maize);background:var(--paper-2);
   display:flex;align-items:center;justify-content:center;text-align:center;
   color:#8a7350;font-family:var(--util);font-size:11px;font-weight:600;padding:8px;
+  position:relative;
+}
+/* Ensure the image scales properly inside the circular mask */
+.leader .portrait img{
+  display:none; /* Managed by the script at the bottom of index.html */
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
 }
 .leader h3{font-size:21px;color:var(--earth);}
 .leader .role{
